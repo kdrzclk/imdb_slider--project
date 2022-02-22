@@ -104,3 +104,30 @@ body {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 0.75rem;
+  }
+
+  .section-image {
+    width: 20rem;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  .nav-title {
+    font-size: 1rem;
+    width: 15rem;
+  }
+
+  .button {
+    width: 5rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
